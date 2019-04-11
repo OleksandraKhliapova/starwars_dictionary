@@ -45,6 +45,10 @@ p{
   width: 100px;
 }
 
+.search-form__submit:disabled{
+  opacity: 0.3;
+}
+
 .character-block{
   background-color: #ffffff;
   padding: 15px;

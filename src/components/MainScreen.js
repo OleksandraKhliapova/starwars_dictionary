@@ -7,7 +7,9 @@ import CharactersList from './CharactersList';
 
 class MainScreen extends PureComponent {
   onSearchFormSubmit = (value) => {
-    this.props.searchCharacter(value);
+    if (value) {
+      this.props.searchCharacter(value);
+    }
   }
 
   render() {
